@@ -1,0 +1,75 @@
+.survey-items {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@font-face {font-family: Handwriting; src: url('others/Handwriting.ttf'); } 
+.title {
+    font-family:'Handwriting';
+    font-size: 6vh;
+    margin: 20px 0px;
+    display: block;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.head {
+    font-family: 'Times New Roman';
+    font-size: 1vh;
+}
+
+.qnhead {
+    font-family: 'Times New Roman';
+    font-size: 1vh;
+    text-decoration: underline;
+    margin:1% 0%;
+}
+
+.bar {
+    width: 30vw;
+    outline: none;
+    margin-bottom:10px;
+}
+
+
+.barv2 {
+    width: 45vw;
+}
+
+.inputs {
+    font-size: 3vh;
+}
+
+.subutton {
+    font-family: 'Times New Roman';
+    font-size: 3vh;
+
+    cursor: pointer;
+    background-color: grey;
+    border:none;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    margin:10px 0px;
+    padding:1%;
+}
+
+.subutton:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 112, 112);
+    transition: background-color 1s;
+    color: 1s
+}
+
+.subutton:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(85, 85, 85);
+    transition: background-color 0.15s;
+    color: 1s;
+}
+
+.option {
+    width:15vw;
+    outline: none;
+}

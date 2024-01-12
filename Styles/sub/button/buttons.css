@@ -1,0 +1,86 @@
+.buttons {
+     width:500px;
+     height:auto;
+     align-items: center;
+     justify-content: center;
+}
+
+.buttons2 {
+    width:500px;
+    height:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-boxy {
+     display:grid;
+     align-items: center;
+     justify-content: center;
+     grid-template-columns: 150px 150px 150px;
+     row-gap: 10px;
+     margin-bottom:20px;
+}
+
+.normal, .opacity, .shadowed, .invert, .invert-slow, .border  {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    cursor: pointer;
+    background-color: grey;
+    border:none;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:10px;
+}
+
+
+/*-----------------------------------------------*/
+
+.opacity:hover {
+    opacity: 0.8;
+}
+
+.opacity:active {
+    opacity: 0.6;
+}
+/*-----------------------------------------------*/
+
+.invert:hover {
+    color: rgb(0, 36, 93);
+    background-color: rgb(0, 75, 197);
+    transition: background-color 0.15s,
+        color 0.15s
+}
+
+.invert:active {
+    color: rgb(0, 28, 72);
+    background-color: rgb(0, 57, 150);
+    transition: background-color 0.15s,
+        color 0.15s
+}
+
+/*-----------------------------------------------*/
+
+.invert-slow:hover {
+    color: rgb(59, 18, 18);
+    background-color: rgb(191, 77, 77);
+    transition: background-color 1s,
+        color 1s
+}
+
+.invert-slow:active {
+    color: rgb(31, 9, 9);
+    background-color: rgb(132, 52, 52);
+    transition: background-color 1s,
+        color 1s
+}
+
+/*-----------------------------------------------*/
+
+.shadowed:hover {
+    box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.15);
+}
+

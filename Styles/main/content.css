@@ -1,0 +1,46 @@
+.header {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    text-decoration: underline;
+}
+
+.mini-header {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.content-page {
+    text-align: center;
+    font-size: 1rem;
+    margin: 10% 0%;
+}
+
+ .para {
+    font-size: 1rem;
+    margin-bottom:5%;
+    margin-top:0;
+     
+}
+
+.bookmark {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 90px;
+    margin-top: -90px;
+    margin-bottom:0; 
+    padding-bottom:0;
+ }
+
+ @media only screen and (min-width: 700px) and (max-width: 850px) {
+    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.70rem;}
+}
+
+ @media only screen and (max-width: 699px) {
+    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.5rem;}
+}
+
+ 
