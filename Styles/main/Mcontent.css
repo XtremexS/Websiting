@@ -1,0 +1,45 @@
+.header {
+    font-size: 1rem;
+    text-align: center;
+    margin:0;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.content-page {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin:0%;
+}
+
+ .para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom:5%;
+    margin-top:0;
+     
+}
+
+.bookmark {
+    font-weight: bold;
+    text-decoration: underline;
+    margin:0;
+ }
+
+ @media only screen and (min-width: 700px) and (max-width: 850px) {
+    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.70rem;}
+}
+
+ @media only screen and (max-width: 699px) {
+    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.5rem;}
+}
+
+ 

@@ -1,0 +1,46 @@
+html {
+    font-size:20px;
+}
+
+body {
+    background-image: url(pics/bg.jpg);
+    padding-top: 100px;
+    min-height: 100vh;
+    height:100%;
+    width: 100%;
+    zoom: 100%;
+    
+    color: white;
+    font-family: 'Times New Roman';
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+hr {
+    width: 35%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+}
+
+p {
+    font-size: 1rem;
+}

@@ -1,0 +1,66 @@
+.survey-items {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:1%;
+}
+
+.survey-itemss {
+    margin-right:20%;
+}
+
+.bar {
+    width: 30vw;
+    height:100vh;
+    outline: none;
+    margin-bottom:10px;
+}
+
+.barv2 {
+    width: 45vw;
+
+}
+
+.option {
+    width:15vw;
+    outline: none;
+}
+
+
+
+.subutton {
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+
+    cursor: pointer;
+    background-color: grey;
+    border:none;
+    font-weight: bold;
+    border-radius: 999px;
+    color: white;
+    margin:1% 0%;
+    padding:0.8%;
+}
+
+.subutton:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 112, 112);
+    transition: background-color 1s;
+    color: 1s
+}
+
+.subutton:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(85, 85, 85);
+    transition: background-color 0.15s;
+    color: 1s;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.70rem;}
+}
+
+ @media only screen and (max-width: 699px) {
+    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.5rem;}
+}

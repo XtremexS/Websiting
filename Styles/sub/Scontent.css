@@ -1,0 +1,39 @@
+@font-face {font-family: Handwriting; src: url('others/Handwriting.ttf'); } 
+.title { /*title for survey*/
+    font-family:'Handwriting';
+    font-size: 2rem;
+    margin: 20px 0px;
+    display: block;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.header {/*title for 'contents' in main web*/
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5% 0;
+}
+
+.header2 {
+    font-size: 1rem;
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+ @media only screen and (min-width: 700px) and (max-width: 850px) {
+    .content-box, .header, .survey-items, .header, .header2, .title {font-size: 0.70rem;}
+}
+
+ @media only screen and (max-width: 699px) {
+    .content-box, .header, .survey-items, .header, .header2, .title {font-size: 0.5rem;}
+}
+
+ 
