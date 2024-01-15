@@ -15,11 +15,18 @@
     height:2vh;
     outline: none;
     margin-bottom:10px;
+    
 }
 
 .barv2 {
     width: 45vw;
+    height:2vh;
+    outline: none;
+    margin-bottom:10px;
+}
 
+.bar::placeholder, .barv2::placeholder {
+    opacity: 0.5;
 }
 
 .option {
