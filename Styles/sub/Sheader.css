@@ -5,14 +5,14 @@ header {
 
     height: 8%;
     width: 100%;
-    padding: 1% 0%; 
+    padding: 1% 0%;
 
     border: solid rgb(24, 24, 24) 1px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-     
+
 }
 
 footer {
@@ -24,45 +24,59 @@ footer {
     width: 100%;
 }
 
- .left {
-     display: flex;
-     align-items: center;
-     width: 30%;
-     margin-left: 1%;
-     margin-right: 30%;
- }
+@font-face {
+    font-family: Handwriting;
+    src: url('others/Handwriting.ttf');
+}
 
- .right {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-evenly;
-     width: 50%;
- }
+.left {
+    font-family: 'Handwriting';
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 20%;
+}
 
- .link-buttons {
-     color: white;
-     text-decoration: none;
-     margin: 0% 2%;
- }
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
 
- .link-buttons:hover {
-     text-decoration: underline;
- }
+.link-buttons {
+    color: white;
+    text-decoration: none;
+    margin: 0% 2%;
+}
 
- .link-buttons:active {
-     color: rgb(63, 63, 63);
- }
+.link-buttons:hover {
+    text-decoration: underline;
+}
 
- 
- @media only screen and (min-width: 700px) and (max-width: 850px) {
+.link-buttons:active {
+    color: rgb(63, 63, 63);
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
     header {
         font-size: 0.7rem;
+    }
+
+    .left {
+        margin-right: 15%;
     }
 }
 
 @media only screen and (max-width: 699px) {
     header {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+    }
+
+    .left {
+        margin-right: 10%;
     }
 }

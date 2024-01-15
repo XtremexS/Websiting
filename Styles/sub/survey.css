@@ -12,7 +12,7 @@
 
 .bar {
     width: 30vw;
-    height:100vh;
+    height:2vh;
     outline: none;
     margin-bottom:10px;
 }
@@ -23,7 +23,7 @@
 }
 
 .option {
-    width:15vw;
+    width:60%;
     outline: none;
 }
 
@@ -58,9 +58,9 @@
 }
 
 @media only screen and (min-width: 700px) and (max-width: 850px) {
-    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.70rem;}
+    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.75rem;}
 }
 
  @media only screen and (max-width: 699px) {
-    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.5rem;}
+    .content-box, .header, .survey-items, .header, .header2 {font-size: 0.55rem;}
 }

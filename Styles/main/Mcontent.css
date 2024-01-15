@@ -2,6 +2,7 @@
     font-size: 1rem;
     text-align: center;
     margin:0;
+    font-weight: bold;
 }
 
 .header2 {
@@ -28,18 +29,12 @@
      
 }
 
-.bookmark {
-    font-weight: bold;
-    text-decoration: underline;
-    margin:0;
- }
-
  @media only screen and (min-width: 700px) and (max-width: 850px) {
-    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.70rem;}
+    .header, .header2, .content-page, .para {font-size: 0.70rem;}
 }
 
  @media only screen and (max-width: 699px) {
-    .header, .mini-header, .content-page, .para, .bookmark {font-size: 0.5rem;}
+    .header, .header2, .content-page, .para {font-size: 0.5rem;}
 }
 
  
